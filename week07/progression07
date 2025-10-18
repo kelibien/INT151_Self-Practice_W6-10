@@ -1,0 +1,17 @@
+DOM และ Node
+- document คือ root node (จุดเริ่มต้นของเอกสารทั้งหมด)
+- ใช้ document.documentElement เพื่อเข้าถึง <html>
+- Node มีหลายประเภท เช่น ELEMENT_NODE เช่น <div> ,TEXT_NODE (ข้อความใน tag), COMMENT_NODE (<!-- comment -->)
+- สามารถเช็คชนิด node ได้ด้วย .nodeType
+- .parentNode / .parentElement ใช้ดูพ่อของ node
+- childNodes -> ได้ทุก node (รวม text, comment)
+- children -> ได้เฉพาะ element เท่านั้น
+- forEach ใช้กับ NodeList ได้ แต่ HTMLCollection ต้องใช้ Array.from() ก่อน
+- ใช้ document.createElement('p') เพื่อสร้าง element ใหม่
+- appendChild() เพิ่ม element เข้าไปใน DOM
+- setAttribute() เพิ่มหรือตั้งค่า attribute
+- .innerHTML -> แปล HTML tag
+- .innerText / .textContent -> แสดงเป็นข้อความ
+- ใช้ querySelectorAll() เพื่อเลือกหลาย element พร้อมกัน
+- .style.property = 'value' เปลี่ยนสี ขนาด หรือการแสดงผลได้
+- ใช้ addEventListener('click', …) เพื่อจับเหตุการณ์คลิกปุ่ม
