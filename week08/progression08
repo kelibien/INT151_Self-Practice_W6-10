@@ -1,0 +1,8 @@
+การเข้าถึงและสำรวจโครงสร้าง DOM
+- ใช้ document.getElementById() และ document.querySelector() เพื่อเข้าถึงองค์ประกอบใน HTML ตาม id หรือ selector
+- ใช้ document.querySelectorAll() เพื่อเลือก element ทั้งหมดที่มี class เดียวกัน แล้วใช้ forEach() เพื่อวนแสดงผล
+
+การจัดการ Class ของ Element
+- classList.add() เพื่อเพิ่มคลาส
+- classList.remove() เพื่อลบคลาส
+- classList.toggle() เพื่อสลับคลาส (ถ้ามีก็ลบ ถ้าไม่มีให้เพิ่ม)
