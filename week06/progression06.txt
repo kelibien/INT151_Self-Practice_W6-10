@@ -1,0 +1,10 @@
+callback, higher-order functions, scope, closure และ object manipulation
+
+- callback function คือการส่งฟังก์ชันเข้าไปเป็นพารามิเตอร์ให้ฟังก์ชันอื่น
+    เหมาะกับการปรับเปลี่ยนการทำงานโดยไม่ต้องแก้โค้ดหลัก
+
+- closure จะถูกเก็บไว้แม้ฟังก์ชันภายนอกจะจบการทำงานแล้ว -> ใช้แนวคิดนี้สร้างตัวนับ, ID generator หรือจำสถานะได้
+
+- การใช้ array methods (push, find, reduce) กับ object
+- การหาค่าสูงสุดใน array ด้วย reduce
+- การจัดการข้อมูลแบบ CRUD เบื้องต้น
