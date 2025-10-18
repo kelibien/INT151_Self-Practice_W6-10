@@ -1,0 +1,15 @@
+การจัดการ Cookies ใน JavaScript
+- document.cookie ใช้สำหรับเข้าถึง cookie ของเว็บไซต์
+- CookieUtil.get(name) -> อ่านค่า cookie ตามชื่อ
+- CookieUtil.set(name, value, expires) → สร้าง cookie พร้อมวันหมดอายุ
+- CookieUtil.unset(name) -> ลบ cookie โดยตั้งวันหมดอายุให้เป็นอดีต
+
+การเข้ารหัส/ถอดรหัสข้อมูลใน cookie
+- ใช้ encodeURIComponent() และ decodeURIComponent() เพื่อให้แน่ใจว่าข้อมูลไม่มีอักขระพิเศษผิดพลาด
+
+หลักการลบ cookie
+- ตั้งวันหมดอายุ (expires) เป็นวันที่ในอดีต เช่น new Date(0) เพื่อให้เบราว์เซอร์ลบออก
+
+การสร้างและใช้งาน class + static method
+- ใช้ static เพื่อให้เรียกใช้เมธอดได้โดยตรงโดยไม่ต้องสร้าง object เช่น
+- CookieUtil.set('user', 'Panita');

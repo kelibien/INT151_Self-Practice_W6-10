@@ -1,0 +1,14 @@
+Week 6
+ได้เรียนรู้เรื่อง callback และ higher-order functions ซึ่งเป็นฟังก์ชันที่ส่งหรือรับฟังก์ชันอื่นได้ รวมถึงการใช้ closure เพื่อเก็บค่าหลังจากฟังก์ชันหลักทำงานเสร็จแล้ว นำมาใช้สร้างตัวนับหรือเก็บสถานะต่อเนื่อง พร้อมทั้งฝึกจัดการ object และ array เช่น push, find, reduce และการทำ CRUD เบื้องต้น
+
+Week 7
+เข้าใจโครงสร้างของ DOM (Document Object Model) ว่า document คือ root node ของหน้าเว็บ และแต่ละแท็กใน HTML คือ node ย่อย สามารถเข้าถึงและแก้ไขได้ เช่น ใช้ document.createElement() เพื่อสร้าง element ใหม่ และ appendChild() เพื่อเพิ่มเข้าไปในหน้า รวมถึงการใช้ .nodeType, .parentNode, .childNodes, .children เพื่อสำรวจความสัมพันธ์ของ node
+
+Week 8
+ฝึกเข้าถึงและจัดการ element ด้วย getElementById() และ querySelectorAll() รวมถึงการควบคุม class ของ element ด้วย classList.add(), classList.remove(), และ classList.toggle() เพื่อปรับแต่งสไตล์หรือการแสดงผลของหน้าเว็บ
+
+Week 9
+ได้เรียนรู้การทำงานของ event เช่น click, keydown, และ submit เข้าใจหลักการ Event-driven Programming ที่ทำให้เว็บตอบสนองต่อการกระทำของผู้ใช้ และรู้จัก event พิเศษอย่าง DOMContentLoaded ที่ทำงานเมื่อ HTML โหลดเสร็จ กับ window.load ที่รอให้ทุกอย่างในหน้าโหลดครบก่อน
+
+Week 10
+เรียนรู้การจัดการข้อมูลฝั่งผู้ใช้ด้วย Cookie และ Local Storage โดยใช้คลาส CookieUtil ในการสร้าง อ่าน และลบ cookie พร้อมเข้าใจการใช้ encodeURIComponent() และ decodeURIComponent() เพื่อเข้ารหัสข้อมูล นอกจากนี้ยังได้ฝึกบันทึกการตั้งค่าหน้าเว็บ เช่น สีพื้นหลังหรือขนาดตัวอักษร ด้วย localStorage
